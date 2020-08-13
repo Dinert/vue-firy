@@ -1,20 +1,23 @@
 
 <style lang="less">
+
 </style>
 
 <template>
   <div id="app">
-    <router-view />
+    fdfdsa
+    <router-view/>
   </div>
 </template>
 
 <script>
+
 export default {
   name: "App",
   data() {
-    return {};
-  },
-  components: {
-  },
-};
+    return {
+
+    }
+  }
+}
 </script>

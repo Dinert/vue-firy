@@ -1,20 +1,26 @@
 
 <style lang="less">
+
 </style>
 
 <template>
   <div id="app">
-    <router-view />
+    <Home/>
+    <router-view/>
   </div>
 </template>
 
 <script>
+import Home from "./views/Home"
 export default {
   name: "App",
   data() {
-    return {};
+    return {
+
+    }
   },
   components: {
-  },
-};
+    Home
+  }
+}
 </script>

@@ -4,9 +4,9 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter);
 
 // 一级路由
-const Home = () => import(/* webpackChunkName: Home */ "@/views/Home");
-const Item = () => import(/* webpackChunkName: Item */ "@/views/Item");
-const Score = () => import(/* webpackChunkName: Score */ "@/views/Score");
+const Home = () => (/* webpackChunkName: Home */ "@/views/Home");
+const Item = () => (/* webpackChunkName: Item */ "@/views/Item");
+const Score = () => (/* webpackChunkName: Score */ "@/views/Score");
 
 const routes = [
   {

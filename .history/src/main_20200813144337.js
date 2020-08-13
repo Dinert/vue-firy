@@ -5,7 +5,6 @@ import store from './store'
 
 // CSS
 import "./assets/css/reset.css"
-import "./assets/css/common.css"
 
 Vue.config.productionTip = false
 
